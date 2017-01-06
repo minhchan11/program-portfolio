@@ -45,10 +45,12 @@ li {
 
 blockquote {
   position: absolute;
-  bottom: 30%;
+  bottom: 5%;
   padding-top: 10%;
+  padding-right: 30px;
   font-style: italic;
   font-size: 50px;
+  text-align: right;
   opacity: 0.3;
 }
 
@@ -86,7 +88,7 @@ blockquote>footer {
   height: 100vh;
   float: right;
   background: #d7dee8;
-  opacity: 0.4;
+  opacity: 0.6;
   padding-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -131,7 +133,7 @@ blockquote>footer {
   word-wrap: break-word;
   font-family: 'Work Sans', sans-serif;
   padding-left: 10px;
-  color: white;
+  color: #fcfcf7;
 }
 
 p.project3 {
@@ -140,20 +142,20 @@ p.project3 {
   word-wrap: break-word;
   font-family: 'Work Sans', sans-serif;
   padding-left: 10px;
-  color: white;
+  color: #fcfcf7;
 }
 
 .row {
   margin-top: 20px;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
   padding-left: 10px;
 }
 
 .col-md-3 {
-  width:142px;
-  margin-left: 3px;
-  margin-right: 3px;
+  width:140px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .well {
@@ -192,4 +194,20 @@ p.project3 {
   border-radius: 10px;
   padding-left: 3px;
   padding-right: 3px;
+}
+
+.self-image {
+  float:left;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.self-photo {
+  height: 180px;
+  border-radius: 50%;
+}
+
+.my-info {
+  position: relative;
+  top: 40px;
 }
