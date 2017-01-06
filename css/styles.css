@@ -19,8 +19,12 @@ h2 {
   opacity: 0.8;
 }
 
-p, ul {
+p, ul, ol {
   font-family: 'Playfair Display', serif;
+}
+
+a {
+  color:#fcfcf7;
 }
 
 p.list {
@@ -35,7 +39,7 @@ ul {
   margin-bottom: 20px;
 }
 
-li {
+ul li {
   text-align: center;
   list-style: none;
   left: -10;
@@ -58,6 +62,7 @@ blockquote>footer {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
+
 .intro {
   position: static;
   top:0;
@@ -210,4 +215,5 @@ p.project3 {
 .my-info {
   position: relative;
   top: 40px;
+  left: 10px;
 }
