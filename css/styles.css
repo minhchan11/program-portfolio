@@ -234,3 +234,7 @@ p.project3 {
   font-size: 20px;
   font-family: 'Didact Gothic', sans-serif;
 }
+
+.random {
+  text-decoration: line-through;
+}
