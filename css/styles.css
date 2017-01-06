@@ -99,3 +99,29 @@ blockquote {
   font-style: italic;
   font-size: 10px;
 }
+
+.project{
+  height: 500px;
+  background-color: blue;
+  margin-bottom: 20px;
+}
+
+.project p {
+  font-size: 30px;
+  width: 10px;
+  word-wrap: break-word;
+  font-family: 'Work Sans', sans-serif;
+}
+
+p.project2 {
+  font-size: 25px;
+  width: 10px;
+  word-wrap: break-word;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.row {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 3px;
+}
