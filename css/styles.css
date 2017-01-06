@@ -2,49 +2,73 @@ p, ul {
   font-family: 'Playfair Display', serif;
 }
 
+p.list {
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10 0 20 0;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  padding right: 10px;
+  display: table-cell;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 30px;
+  opacity: 0.3;
+}
+
 .intro {
   position: static;
   top:0;
   display: block;
   background-image: url(../img/background-intro.jpg);
   background-position: center;
-  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 
 .sidebar {
   position: relative;
   display: inline-block;
-  top: 10px;
+  top: 20px;
   width: 30%;
+  height: 100%;
   float: left;
   background: #d7dee8;
   opacity: 0.4;
 }
 
-/*.division {
-  left: 200px;
-  height: 100%;
-  color: white;
-}*/
-
 .maincontent {
   position: relative;
   display: inline-block;
-  top: 10px;
+  top: 20px;
   width: 60%;
   float: right;
   background: #d7dee8;
   opacity: 0.4;
-}
-
-.empty {
-  display: block;
-  height: 10px;
-  clear: both;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .contactme {
   clear: both;
   padding: 20px 0 20px 0;
   text-align: center;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+  background-color: #adadad;
+  vertical-align: middle;
 }
