@@ -29,10 +29,17 @@ p.list {
   text-align: center;
 }
 
+ul {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
 li {
   text-align: center;
   list-style: none;
-  padding right: 10px;
+  left: -10;
+  margin-left: -10px;
   display: table-cell;
 }
 
@@ -113,23 +120,65 @@ blockquote {
   width: 10px;
   word-wrap: break-word;
   font-family: 'Work Sans', sans-serif;
+  padding-left: 10px;
+  color: white;
 }
 
-p.project2 {
+p.project3 {
   font-size: 25px;
   width: 10px;
   word-wrap: break-word;
   font-family: 'Work Sans', sans-serif;
+  padding-left: 10px;
+  color: white;
 }
 
 .row {
+  margin-top: 20px;
   margin-left: 2px;
   margin-right: 2px;
   padding: 3px;
+}
+
+.col-md-3 {
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .well {
   position: absolute;
   bottom: 0;
   margin-right: 20px;
+}
+
+.proj-img1 {
+  background-image: url(../img/proj1.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.proj-img2 {
+  background-image: url(../img/proj2.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.proj-img3 {
+  background-image: url(../img/proj3.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.proj-img4 {
+  background-image: url(../img/proj4.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
