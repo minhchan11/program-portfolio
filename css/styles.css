@@ -23,7 +23,7 @@ p, ul, ol {
   font-family: 'Playfair Display', serif;
 }
 
-a {
+.row a {
   color:#fcfcf7;
 }
 
@@ -40,11 +40,17 @@ ul {
 }
 
 ul li {
+  font-size: 17px;
   text-align: center;
   list-style: none;
   left: -10;
   margin-left: -10px;
   display: table-cell;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
 }
 
 blockquote {
@@ -93,7 +99,7 @@ blockquote>footer {
   height: 100vh;
   float: right;
   background: #d7dee8;
-  opacity: 0.6;
+  opacity: 0.68;
   padding-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -137,7 +143,8 @@ blockquote>footer {
   width: 10px;
   word-wrap: break-word;
   font-family: 'Work Sans', sans-serif;
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-top: 25px;
   color: #fcfcf7;
 }
 
@@ -146,7 +153,8 @@ p.project3 {
   width: 10px;
   word-wrap: break-word;
   font-family: 'Work Sans', sans-serif;
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-top: 5px;
   color: #fcfcf7;
 }
 
@@ -216,4 +224,13 @@ p.project3 {
   position: relative;
   top: 40px;
   left: 10px;
+}
+
+.btn {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Didact Gothic', sans-serif;
 }
